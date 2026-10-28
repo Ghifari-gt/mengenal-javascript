@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f4ff;
+    color: #333;
+}
+
+header {
+    background-color: #3949ab;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #283593;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    width: 85%;
+    margin: 25px auto;
+}
+
+.kotak {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #cccccc;
+}
+
+h2 {
+    color: #3949ab;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #283593;
+}
+
+code {
+    display: inline-block;
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+
+footer {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 92%;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    input {
+        max-width: 90%;
+    }
+}
